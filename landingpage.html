@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Center - 30% Discount Offer</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+
+    <header>
+        <h1>Elevate Fitness</h1>
+        <p>Join Now and Get Fit with a 30% Discount!</p>
+    </header>
+
+    <section>
+        <div class="offer-banner">
+            <h2>30% OFF Now on Joining!</h2>
+            <p>Sign up today and take advantage of this limited-time offer. Stay fit and healthy with us.</p>
+        </div>
+
+        <div class="info-section">
+            <p>At Fitness Center, we believe in providing the best facilities for our members. Our fitness center is equipped with state-of-the-art equipment, certified trainers, and a motivating environment. Whether you're a beginner or a pro, we have something for everyone!</p>
+        </div>
+
+        <div class="plans">
+            <div class="plan">
+                <h3>Premium Plan</h3>
+                <p>₹2,500 / Month</p>
+                <p>Access to all equipment, personal training sessions.</p>
+                <button onclick="openPopup()">Enroll Now</button>
+            </div>
+            <div class="plan">
+                <h3>Pro Plan</h3>
+                <p>₹3,500 / Month</p>
+                <p>Premium features plus nutrition plans.</p>
+                <button onclick="openPopup()">Enroll Now</button>
+            </div>
+            <div class="plan">
+                <h3>Golden Plan</h3>
+                <p>₹5,000 / Month</p>
+                <p>All features, unlimited access, and VIP sessions.</p>
+                <button onclick="openPopup()">Enroll Now</button>
+            </div>
+        </div>
+
+        <div class="signup">
+            <h3>Sign Up Now!</h3>
+            <button onclick="openPopup()">Join Today!</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Fitness Center. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Popup HTML -->
+    <div id="popup">
+        <h2>Enroll in Our Fitness Plans</h2>
+        <p>Thank you for your interest! Please contact us at info@fitnesscenter.com for further details.</p>
+        <button id="close-popup" onclick="closePopup()">Close</button>
+    </div>
+
+    <script>
+        // Function to open popup
+        function openPopup() {
+            document.getElementById('popup').style.display = 'block';
+        }
+
+        // Function to close popup
+        function closePopup() {
+            document.getElementById('popup').style.display = 'none';
+        }
+    </script>
+
+</body>
+</html>

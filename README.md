@@ -1,2 +1,1 @@
-# CODSOFT
-separate repository for Codsoft Task submission
+# Landing-Page
